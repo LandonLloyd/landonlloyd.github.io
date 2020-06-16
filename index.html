@@ -1,164 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <title>Landon Lloyd</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
-      rel="stylesheet"
-    />
-
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://kit.fontawesome.com/e4609177e3.js"
-      crossorigin="anonymous"
-    ></script>
+    
+    <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
-    <nav id="navbar">
-      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-      <!-- Top Navigation Menu -->
-      <div class="topnav">
-        <a href="#home" class="active">Landon Lloyd</a>
-        <!-- Navigation links (hidden by default) -->
-        <div id="myLinks">
-          <a href="#welcome-section">Home</a>
-          <a href="#projects">Projects</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact Me</a>
-        </div>
-        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </nav>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#welcomeSection" class="active">Landon Lloyd</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#welcomeSection">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contactMe">Contact Me</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
     <div id="all">
-      <section id="welcome-section">
-        <div>
-          <h1>
-            Front-End Developer
-          </h1>
-          <p>
-            Landon Lloyd
-          </p>
+    <section id="welcomeSection">
+      <div>
+        <h1>Landon Lloyd</h1>
+        <p>Front End-Developer</p>
+      </div>
+    </section>
+    <section id="projects">
+      <div id="projectTitle">
+        <h1>Projects</h1>
         </div>
-      </section>
-
-      <section id="projects">
-        <h3 class="project-title">Projects</h3>
         <div class="project-tile">
-          <div class="row">
-            <div class="column">
-              <!-- Copy and Paste Me -->
-              <div
-                class="glitch-embed-wrap"
-                style="height: 420px; width: 100%;"
-              >
-                <iframe
-                  src="https://glitch.com/embed/#!/embed/technical-doc-fcc-project?path=README.md&previewSize=100"
-                  title="technical-doc-fcc-project on Glitch"
-                  allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-                  style="height: 100%; width: 100%; border: 0;"
-                >
-                </iframe>
-              </div>
-            </div>
-            <div class="column">
-              <!-- Copy and Paste Me -->
-              <div
-                class="glitch-embed-wrap"
-                style="height: 420px; width: 100%;"
-              >
-                <iframe
-                  src="https://glitch.com/embed/#!/embed/fcc-landing-page-project?path=README.md&previewSize=100"
-                  title="fcc-landing-page-project on Glitch"
-                  allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-                  style="height: 100%; width: 100%; border: 0;"
-                >
-                </iframe>
-              </div>
-            </div>
+      <div class="row">
+        <div class="column">
+          <a class="projLink" href="https://landonlloyd.github.io/Scoreboard/" target="_blank"><img src="scoreboard.png" class="project"><p>Scoreboard Project</p></a>
           </div>
-
-          <div class="row">
-            <div class="column">
-              <!-- Copy and Paste Me -->
-              <div
-                class="glitch-embed-wrap"
-                style="height: 420px; width: 100%;"
-              >
-                <iframe
-                  src="https://glitch.com/embed/#!/embed/fcc-tribute-project?path=README.md&previewSize=100"
-                  title="fcc-tribute-project on Glitch"
-                  allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-                  style="height: 100%; width: 100%; border: 0;"
-                >
-                </iframe>
-              </div>
-            </div>
-            <div class="column">
-              <!-- Copy and Paste Me -->
-              <div
-                class="glitch-embed-wrap"
-                style="height: 420px; width: 100%;"
-              >
-                <iframe
-                  src="https://glitch.com/embed/#!/embed/survey-fcc?path=README.md&previewSize=100"
-                  title="survey-fcc on Glitch"
-                  allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-                  style="height: 100%; width: 100%; border: 0;"
-                >
-                </iframe>
-              </div>
-            </div>
-          </div>
+          <div class="column">
+          <a class="projLink" href="https://landonlloyd.github.io/sqrtproject/" target="_blank"><img src="sqrt.png" class="project"><p>Square Root Finder Project</p></a>
         </div>
-
-        <div id="about">
-          <h3 id="about-title">
-            About Me
-          </h3>
-          <div id="about-main">
-            <p id="about-paragraph">
-              I am a 13 year old who has learned the basics of Front-End Web
-              Development. I have finished the Responsive Web Design
-              certification on FreeCodeCamp and started learning the basics of
-              JavaScript. I love making these websites and can't wait to learn
-              even more!
-            </p>
-          </div>
+        <div class="column">
+          <a class="projLink" href="https://landonlloyd.github.io/Aim-Trainer/" target="_blank"><img src="aimProject.png" class="project"><p>Aim Trainer Project</p></a>
         </div>
-        <div id="contact">
-          <h3 id="contact-title">
-            Contact Me
-          </h3>
-          <div id="links">
-            <a
-              id="profile-link"
-              href="https://www.freecodecamp.org/landonlloyd"
-              target="_blank"
-              ><i class="fab fa-free-code-camp fa-lg"></i
-            ></a>
-            <a href="mailto:landon.h.lloyd@gmail.com" target="_blank"
-              ><i class="far fa-envelope fa-lg"></i
-            ></a>
-            <a href="https://github.com/LandonLloyd"
-               target="_blank">
-              <i class="fab fa-github fa-lg"></i>
+                <div class="column">
+          <a class="projLink" href="https://landonlloyd.github.io/Coin-Flipper/"><img src="flipper.png" class="project"><p>Coin Flipper Project</p></a>
+      </div>
+      
+      
+      
         
-          </div>
+          
         </div>
-      </section>
+      
+      </div>
+        
+      
+    </section>
+    
+    <section id="about">
+      <div id="aboutTitle">
+        <h1>About Me</h1>
+      </div>
+      <div id="aboutParagraph">
+        <p>I am a 13 year old student learning the basics of coding and web-development. I am currently on the JavaScript section of <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>. I love learning new things and can't wait to increase my knowledge of coding even more! I also love to make things that are fun to do. I also love to play sports. The sports I love most are soccer and basketball!</p>
+      </div>
+      
+    </section>
+    <section id="contactMe">
+      <div id="contactTitle">
+        <h1>Contact Me</h1>
+      </div>
+      <div class="contactLinks">
+        <a href="https://www.freecodecamp.org/landonlloyd" target="_blank"><i class="fab fa-free-code-camp fa-lg"></i></a>
+      </div>
+      <div class="contactLinks">
+        <a href="https://github.com/LandonLloyd" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="contactLinks">
+        <a href="mailto:landon.h.lloyd@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+      </div>
+      <div class="contactLinks">
+        <a href="https://codepen.io/LandonL" target="_blank"><i class="fab fa-codepen"></i></a>
+      </div>
+    </section>
+    
+    
     </div>
-    <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+    <script src="https://kit.fontawesome.com/e4609177e3.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>
