@@ -1,6 +1,6 @@
 @media (max-width: 500px;){
   #aboutParagraph{
-    height: 150vh;
+    height: min-height;
   }
 }
 
@@ -118,7 +118,7 @@ body{
 }
 
 #about{
-  height: 100vh;
+  height: min-height;
   width: 100%;
   background: url(https://cdn.pixabay.com/photo/2016/07/11/20/37/flower-meadow-1510602_960_720.jpg);
   background-repeat: none;
