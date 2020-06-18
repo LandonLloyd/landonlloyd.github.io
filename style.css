@@ -1,4 +1,5 @@
-@media (max-width: 500px;){
+@media(orientation: portrait;){
+  
   #aboutParagraph{
     height: min-height;
   }
