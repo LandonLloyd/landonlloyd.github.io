@@ -5,8 +5,8 @@ body{
 }
 
 img{
-  width: 200px;
-  height: 250px;
+  width: 25vw;
+  height: auto;
   padding-bottom: 10px;
 }
 
@@ -20,8 +20,8 @@ footer{
 }
 
 .grid-div{
-  height: 300px;
-  width: 250px;
+  height: auto;
+  width: 25vw;
   background-color: gray;
   border: 1px solid white;
 }
