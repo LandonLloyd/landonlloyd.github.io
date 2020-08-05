@@ -1,0 +1,37 @@
+body{
+  background-color: purple;
+  color: white;
+  text-align: center;
+}
+
+img{
+  height: auto;
+  width: 25vh;
+  padding-bottom: 10px;
+}
+
+a{
+  color: white;
+}
+
+footer{
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.grid-div{
+  height: 300px;
+  width: 250px;
+  background-color: gray;
+  border: 1px solid white;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: 50vh 50vh;
+  margin-bottom: 5vh;
+}
+
+#title{
+  border-bottom: 1px solid white;
+}
