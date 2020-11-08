@@ -101,14 +101,8 @@ body{
   border: 3px solid white;
 }
 
-.projLink a{
-  text-decoration: none;
-  color: white;
-}
-
-.projLink a:hover{
-  color: purple;
-  text-decoration: underline;
+.projLink{
+  background-color: white;
 }
 
 #about{
