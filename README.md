@@ -1,4 +1,4 @@
-# landonlloyd.github.io
+# Landon Lloyd
 This is my personal portfolio repository. Inside it contains all of the code I did to make my portfolio. 
 
 # Live Deployment
