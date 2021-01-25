@@ -65,13 +65,13 @@ body{
   text-align: center;
   font-size: 35px;
   font-weight: bold;
-  background-image: url(https://cdn.pixabay.com/photo/2013/02/20/11/30/autumn-83761_960_720.jpg);
+  background-image: url(https://cdn.pixabay.com/photo/2016/09/07/11/37/tropical-1651426_960_720.jpg);
   background-repeat: none;
   background-size: cover;
 }
 
 #projects{
-  background: url(https://cdn.pixabay.com/photo/2014/02/07/10/19/winter-260817_960_720.jpg);
+  background: url(https://cdn.pixabay.com/photo/2013/02/20/11/30/autumn-83761_960_720.jpg);
   background-repeat: none;
   background-size: cover;
   color: white;
@@ -82,7 +82,7 @@ body{
 #projectTitle{
   text-align: center;
   padding: 20px;
-  color: black;
+  color: white;
 }
 
 
@@ -112,7 +112,7 @@ body{
 #about{
   min-height: 100vh;
   width: 100%;
-  background: url(https://cdn.pixabay.com/photo/2016/07/11/20/37/flower-meadow-1510602_960_720.jpg);
+  background: url(https://cdn.pixabay.com/photo/2015/12/29/14/51/mountains-1112911_960_720.jpg);
   background-repeat: none;
   background-size: cover;
 }
@@ -121,7 +121,7 @@ body{
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  color: black;
+  color: white;
   font-size: 35px;
 }
 
@@ -145,7 +145,7 @@ body{
 }
 
 #contactMe{
-  background: url(https://cdn.pixabay.com/photo/2014/12/15/17/16/pier-569314_960_720.jpg);
+  background: url(https://cdn.pixabay.com/photo/2017/02/11/09/52/flowering-twig-2057360_960_720.jpg);
   min-height: 100vh;
   width: 100%;
   background-repeat: none;
@@ -171,13 +171,5 @@ body{
 }
 
 .contactLinks a:hover{
-  color: purple;
-}
-
-#all{
-  scroll-snap-type: y mandatory;
-}
-
-.main{
-  scroll-snap-align: start;
+  color: blue;
 }
