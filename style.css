@@ -173,3 +173,11 @@ body{
 .contactLinks a:hover{
   color: purple;
 }
+
+#all{
+  scroll-snap-type: y mandatory;
+}
+
+.main{
+  scroll-snap-align: start;
+}
