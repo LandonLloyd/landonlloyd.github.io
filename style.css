@@ -33,7 +33,7 @@
 }
 
 .topnav a:hover {
-  background-color: grey;
+  background-color: gray;
   color: white;
 }
 
@@ -42,7 +42,7 @@
   color: white;
 }
 
-#welcome{
+#home{
   height: 100vh;
   width: 100%;
   background: url(https://cdn.pixabay.com/photo/2019/12/17/17/58/night-4702174_960_720.jpg);
@@ -53,8 +53,7 @@
   align-items: center;
 }
 
-
-.welcomeText{
+.homeText{
   font-weight: bold;
   color: white;
   font-weight: bold;
@@ -69,7 +68,34 @@
   font-size: 2.5rem;
 }
 
+#projHead{
+  display: flex;
+  justify-content: center;
+}
+
+#projTitle{
+  font-size: 2.5rem;
+}
+
 #projects{
+  background-color: #9ead9e;
+}
+
+#projShowcase{
   height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#slideshow{
+  height: 50vh;
+  width: 50vw;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.projBtn{
+  margin: 5px;
 }
